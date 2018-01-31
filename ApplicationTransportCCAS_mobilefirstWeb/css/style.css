@@ -1,0 +1,79 @@
+
+.navbar-header .navbar-brand {
+  height: auto;
+  width: auto;
+}
+
+.navbar-default {
+  background-color:transparent;
+  border-color: white;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+
+
+ .navbar-nav > li > a{
+  font-family: 'Rubik Mono One', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 40%;
+  margin-right: 0%;
+  font-size: 1.8em;
+  line-height: 10rem;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  background-color:#DA1648;
+  transition: 2s;
+	border-radius: 50%;
+	transition: all 2s;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  color:white;
+  list-style: none;
+}
+
+.navbar-default .navbar-nav>li>a{
+  list-style: none;
+  color: #DA1648;
+}
+@media screen and (max-width: 640px) {
+  .navbar-nav > li{
+   padding-top:0%;
+   border: none;
+ }
+
+ .navbar-nav > li > a{
+   border-right:none;
+   text-align: center;
+   line-height: 2rem;
+   position:relative;
+   margin-left: 0%;
+   font-size: 1em;
+
+ }
+
+ .separation{
+   display: none;
+ }
+
+ img{margin-left: auto;margin-right: auto;}
+
+}
+
+
+@media screen and (max-width: 1024px) {
+  .navbar-nav > li{
+   border: none;
+ }
+ .navbar-nav > li > a{
+   border-right:none;
+   text-align: center;
+   line-height: 2rem;
+   margin-left: 0%;
+   font-size: 1.2em;
+ }
+
+  img{margin-left: auto;margin-right: auto;}
+}
