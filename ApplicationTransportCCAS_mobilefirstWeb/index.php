@@ -8,9 +8,11 @@
   <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
   <link rel="stylesheet" href="bootstrap-v3/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="pingback" href="http://icofont.com/xmlrpc.php">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="bootstrap-v3/js/bootstrap.min.js"></script>
 </head>
-<body>
+<header>
   <nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header" style="width:auto;">
@@ -30,14 +32,22 @@
             <li>
               <a href="#">NOS MENUS</a>
             </li>
+
             <li>
             <hr class="separation" />
             </li>
             <li>
-              <a href="#">LIVRAISON</a>
+              <a href="#" class="livraisonItem" ></i>LIVRAISON</a>
             </li>
           </ul>
     </div>
   </nav>
+</header>
+<body>
+  <div class="container">
+    <p class="h1">Salut !</p>
+
+    <img class="img-responsive" src="img/logo-alibaba.png">
+  </div>
 </body>
 </html>

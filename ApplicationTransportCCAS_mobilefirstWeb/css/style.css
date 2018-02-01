@@ -1,43 +1,54 @@
-
-.navbar-header .navbar-brand {
-  height: auto;
-  width: auto;
+body{
+  background: url("../img/background-kebab.jpg");
 }
 
-.navbar-default {
-  background-color:transparent;
+header>.navbar-default {
+  background-color:white;
   border-color: white;
-  background-image: none;
   background-repeat: no-repeat;
  }
 
-
- .navbar-nav > li > a{
+.svg-inline--fa .fa-truck .fa-w-20 .fa-2x{
+  width: 10px;
+}
+.navbar-nav > li > a{
   font-family: 'Rubik Mono One', sans-serif;
   text-align: center;
   vertical-align: middle;
-  margin-left: 40%;
+  margin-left: 35%;
   margin-right: 0%;
   font-size: 1.8em;
   line-height: 10rem;
+
 }
 
-.navbar-default .navbar-nav > li > a:hover{
-  background-color:#DA1648;
-  transition: 2s;
-	border-radius: 50%;
-	transition: all 2s;
+.livraisonItem:hover::before{
+  content: url("../img/delivery3.png");
+  padding-right:0px;
+}
+
+
+.container{
+  border: 1px solid #C82127;
+  background-color: #C82127;
+  border-radius: 10px;
+
 }
 
 .navbar-default .navbar-nav>li>a:hover{
   color:white;
   list-style: none;
+  background-color: #C82127;
 }
 
 .navbar-default .navbar-nav>li>a{
   list-style: none;
-  color: #DA1648;
+  color: #C82127;
+  transition:color 0.15s ease-in;
 }
+
+
+
 @media screen and (max-width: 640px) {
   .navbar-nav > li{
    padding-top:0%;
