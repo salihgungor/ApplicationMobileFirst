@@ -17,7 +17,7 @@
     <div class="container-fluid">
       <div class="navbar-header" style="width:auto;">
         <a href="index.php">
-          <img class="img-responsive" src="img/Ali-Baba-Logo.jpg" alt="logo alibaba" >
+          <img class="img-responsive" src="img/alibaba2.png" alt="logo alibaba" >
         </a>
       </div>
           <ul class="nav navbar-nav">

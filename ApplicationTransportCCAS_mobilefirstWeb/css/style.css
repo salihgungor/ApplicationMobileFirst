@@ -8,9 +8,7 @@ header>.navbar-default {
   background-repeat: no-repeat;
  }
 
-.svg-inline--fa .fa-truck .fa-w-20 .fa-2x{
-  width: 10px;
-}
+
 .navbar-nav > li > a{
   font-family: 'Rubik Mono One', sans-serif;
   text-align: center;
@@ -21,17 +19,17 @@ header>.navbar-default {
   line-height: 10rem;
 
 }
-
+/*
 .livraisonItem:hover::before{
   content: url("../img/delivery3.png");
   padding-right:0px;
-}
+} */
 
 
 .container{
   border: 1px solid #C82127;
   background-color: #C82127;
-  border-radius: 10px;
+  border-radius: 5px;
 
 }
 
@@ -74,16 +72,41 @@ header>.navbar-default {
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1214px){
   .navbar-nav > li{
    border: none;
+   display: inline;
  }
  .navbar-nav > li > a{
    border-right:none;
    text-align: center;
    line-height: 2rem;
    margin-left: 0%;
-   font-size: 1.2em;
+   font-size: 118.5%;
+ }
+
+  img{margin-left: auto;margin-right: auto;}
+}
+
+@media screen and (max-width: 1214px) and (min-width: 768px){
+  .navbar-nav > li{
+   border: none;
+
+ }
+ .navbar-nav > li > a{
+   border-right:none;
+   text-align: center;
+   line-height:13rem;
+   margin-left: 0%;
+   margin-right: auto;
+   font-size: 140%;
+   width: auto;
+ }
+
+.navbar-nav{
+   border:1px solid black;
+   margin-left: auto;
+   margin-right: auto;
  }
 
   img{margin-left: auto;margin-right: auto;}
