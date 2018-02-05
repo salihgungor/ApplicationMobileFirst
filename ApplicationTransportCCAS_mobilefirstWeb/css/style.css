@@ -1,13 +1,44 @@
+/************************************************************
+*************************Corps******************************
+*************************************************************/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  margin: 0;
+}
+
 body{
   background: url("../img/background-kebab.jpg");
+  width: 100%;
+  background-attachment: fixed;
 }
+
+.container{
+  border: 1px solid #C82127;
+  background-color: #C82127;
+  border-radius: 5px;
+}
+
+img{
+  margin-left: auto;
+	margin-right: auto;
+  margin-bottom: 5px;
+}
+
+/************************************************************
+*************************Menu******************************
+*************************************************************/
 
 header>.navbar-default {
   background-color:white;
   border-color: white;
   background-repeat: no-repeat;
- }
-
+}
 
 .navbar-nav > li > a{
   font-family: 'Rubik Mono One', sans-serif;
@@ -17,20 +48,6 @@ header>.navbar-default {
   margin-right: 0%;
   font-size: 1.8em;
   line-height: 10rem;
-
-}
-/*
-.livraisonItem:hover::before{
-  content: url("../img/delivery3.png");
-  padding-right:0px;
-} */
-
-
-.container{
-  border: 1px solid #C82127;
-  background-color: #C82127;
-  border-radius: 5px;
-
 }
 
 .navbar-default .navbar-nav>li>a:hover{
@@ -45,7 +62,9 @@ header>.navbar-default {
   transition:color 0.15s ease-in;
 }
 
-
+/************************************************************
+*************************Responsive (Media Queries)******************************
+*************************************************************/
 
 @media screen and (max-width: 640px) {
   .navbar-nav > li{
@@ -60,7 +79,6 @@ header>.navbar-default {
    position:relative;
    margin-left: 0%;
    font-size: 1em;
-
  }
 
  .separation{
@@ -69,6 +87,9 @@ header>.navbar-default {
 
  img{margin-left: auto;margin-right: auto;}
 
+ .three.columns{
+   display:block;
+ }
 }
 
 
@@ -91,23 +112,108 @@ header>.navbar-default {
 @media screen and (max-width: 1214px) and (min-width: 768px){
   .navbar-nav > li{
    border: none;
-
  }
  .navbar-nav > li > a{
    border-right:none;
    text-align: center;
    line-height:13rem;
-   margin-left: 0%;
+   margin-left: 38%;
    margin-right: auto;
    font-size: 140%;
    width: auto;
  }
 
 .navbar-nav{
-   border:1px solid black;
    margin-left: auto;
    margin-right: auto;
  }
 
   img{margin-left: auto;margin-right: auto;}
+
+}
+
+
+/************************************************************
+*************************Footer******************************
+*************************************************************/
+
+.footer{
+  font-size: 1em;
+  line-height: 2.1875em;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+section.bg-white{
+  background: white;
+  color: #C82127;
+}
+
+section.bg-whitelight {
+    background: #EDEDED;
+    color: white;
+    text-align: center;
+}
+
+section{
+  margin: 0;
+  overflow: auto;
+  padding: 1.5em 1em;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  -moz-transition: opacity 1s ease-out 0.1s;
+  -o-transition: opacity 1s ease-out 0.1s;
+  -webkit-transition: opacity 1s ease-out;
+  -webkit-transition-delay: 0.1s;
+  transition: opacity 1s ease-out 0.1s;
+}
+
+.centered {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0;
+}
+
+.footer h3 {
+    color: #F3971C;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer ul {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.footer ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.footer a {
+    color: #C82127;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.footer p{
+  color:#F3971C;
+}
+
+.container2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
