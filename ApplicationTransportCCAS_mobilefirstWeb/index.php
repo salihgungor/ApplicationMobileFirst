@@ -12,7 +12,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <script src="bootstrap-v3/js/bootstrap.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 </head>
+<script>
+</script>
 <header>
   <nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
@@ -25,13 +28,13 @@
             <li>
             </li>
             <li>
-              <a  href="index.php">ACCUEIL</a>
+              <a href="#">ACCUEIL</a>
             </li>
             <li>
             <hr class="separation" />
             </li>
             <li>
-              <a href="#">NOS MENUS</a>
+              <a class="link" href="pages/menus.php">NOS MENUS</a>
             </li>
 
             <li>
@@ -47,19 +50,7 @@
 </header>
 <body>
   <div class="container">
-    <img class="img-responsive" src="img/logo-alibaba.png">
-    <img class="img-responsive" src="img/logo-alibaba.png">
-    <img class="img-responsive" src="img/logo-alibaba.png">
-    <img class="img-responsive" src="img/logo-alibaba.png">
-    <img class="img-responsive" src="img/logo-alibaba.png">
-    <img class="img-responsive" src="img/logo-alibaba.png">
-    <img class="img-responsive" src="img/logo-alibaba.png">
-    <img class="img-responsive" src="img/logo-alibaba.png">
-    <img class="img-responsive" src="img/logo-alibaba.png">
-    <img class="img-responsive" src="img/logo-alibaba.png">
-    <img class="img-responsive" src="img/logo-alibaba.png">
-    <img class="img-responsive" src="img/logo-alibaba.png">
-    <img class="img-responsive" src="img/logo-alibaba.png">
+
   </div>
   <footer class="footer">
     <section class="bg-white" style="position:relative">
@@ -95,7 +86,7 @@
     </section>
     <section class="bg-whitelight" style="position:relative;">
 		    <div class="footer--copyright centered">
-		                <p>© Copyright 2018 - Ali Baba, SARL Atakan.</p>
+		                <p>© Copyright 2018 - Ali Baba<br/> SARL Atakan.</p>
 		            </div>
 		</section>
   </footer>

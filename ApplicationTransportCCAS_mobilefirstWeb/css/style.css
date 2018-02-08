@@ -14,15 +14,16 @@ html,body{
 }
 
 body{
-  background: url("../img/background-kebab.jpg");
+  background: url("../img/test.jpg");
   width: 100%;
   background-attachment: fixed;
 }
 
 .container{
-  /*border: 1px solid rgba(200,33,39,0.75);*/
-  background-color: rgba(200,33,39,0.75);
+
+  /* background-color: rgba(200,33,39,0.75); */
   border-radius: 5px;
+  min-height: 100%;
 }
 
 img{
@@ -50,6 +51,10 @@ header>.navbar-default {
   margin-right: 0%;
   font-size: 1.8em;
   line-height: 10rem;
+  -webkit-transition: background-color 0.25s ease-out;
+  -moz-transition: background-color 0.25s ease-out;
+  -o-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
@@ -58,17 +63,22 @@ header>.navbar-default {
   background-color: #C82127;
 }
 
+.navbar-default .navbar-nav>li>a:focus{
+  color:#C82127;
+  list-style: none;
+  background-color:transparent;
+}
+
 .navbar-default .navbar-nav>li>a{
   list-style: none;
   color: #C82127;
-  transition:color 0.15s ease-in;
 }
 
 /************************************************************
 *************************Responsive (Media Queries)******************************
 *************************************************************/
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .navbar-nav > li{
    padding-top:0%;
    border: none;
@@ -94,8 +104,7 @@ header>.navbar-default {
  }
 }
 
-
-@media screen and (max-width: 1214px){
+ @media screen and (max-width: 1214px){
   .navbar-nav > li{
    border: none;
    display: inline;
@@ -111,28 +120,6 @@ header>.navbar-default {
   img{margin-left: auto;margin-right: auto;}
 }
 
-@media screen and (max-width: 1214px) and (min-width: 768px){
-  .navbar-nav > li{
-   border: none;
- }
- .navbar-nav > li > a{
-   border-right:none;
-   text-align: center;
-   line-height:13rem;
-   margin-left: 38%;
-   margin-right: auto;
-   font-size: 140%;
-   width: auto;
- }
-
-.navbar-nav{
-   margin-left: auto;
-   margin-right: auto;
- }
-
-  img{margin-left: auto;margin-right: auto;}
-
-}
 
 
 /************************************************************
