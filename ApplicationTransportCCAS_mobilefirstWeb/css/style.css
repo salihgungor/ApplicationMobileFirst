@@ -14,16 +14,16 @@ html,body{
 }
 
 body{
-  background: url("../img/test.jpg");
+  background: url("../img/test2.jpg");
   width: 100%;
   background-attachment: fixed;
 }
 
 .container{
+  min-height:100%;
+  background-color: #C82127;
+  opacity:0.75;
 
-  /* background-color: rgba(200,33,39,0.75); */
-  border-radius: 5px;
-  min-height: 100%;
 }
 
 img{
@@ -120,7 +120,50 @@ header>.navbar-default {
   img{margin-left: auto;margin-right: auto;}
 }
 
+/************************************************************
+*************************Body******************************
+*************************************************************/
 
+/*******************SLIDER******************/
+
+.rslides {
+  position: relative;
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 50%;
+  border: 0;
+  }
+
+/******************SLIDER FIN**************/
+
+.slider{
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /************************************************************
 *************************Footer******************************
