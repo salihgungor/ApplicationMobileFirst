@@ -25,7 +25,7 @@ $(document).ready(function() {
   $(function() {
     $(".rslides").responsiveSlides({
   auto: true,             // Boolean: Animate automatically, true or false
-  speed: 500,            // Integer: Speed of the transition, in milliseconds
+  speed: 1000,            // Integer: Speed of the transition, in milliseconds
   timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
   pager: false,           // Boolean: Show pager, true or false
   nav: false,             // Boolean: Show navigation, true or false
@@ -79,9 +79,10 @@ $(document).ready(function() {
   <div class="container">
     <div class="slider">
         <ul class="rslides">
-          <li><img src="img/1.jpg" alt=""></li>
-          <li><img src="img/2.jpg" alt=""></li>
-          <li><img src="img/3.jpg" alt=""></li>
+          <li><img class="img-responsive" src="img/1.jpg" alt=""></li>
+          <div class="centered">Centered</div>
+          <li><img class="img-responsive" src="img/2.jpg" alt=""></li>
+          <li><img class="img-responsive" src="img/3.jpg" alt=""></li>
         </ul>
     </div>
     <div class="meteo">
