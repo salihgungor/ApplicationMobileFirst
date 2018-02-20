@@ -20,23 +20,26 @@ body{
 }
 
 .container{
-  min-height:100%;
-  background-color: #C82127;
-  opacity:0.75;
+  background-color: transparent;
   padding-left: 0;
   padding-right: 0;
+  width: 100%;
+
 }
 
 img{
   margin-left: auto;
 	margin-right: auto;
-  margin-bottom: 5px;
 }
 
 
 /************************************************************
 *************************Menu (navbar)******************************
 *************************************************************/
+
+.navbar{
+  margin-bottom:0px;
+}
 
 header>.navbar-default {
   background-color:white;
@@ -125,45 +128,7 @@ header>.navbar-default {
 *************************Body******************************
 *************************************************************/
 
-/*******************SLIDER******************/
 
-.rslides {
-  position: relative;
-  list-style-type: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  }
-
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-  }
-
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
-
-.rslides img {
-  display: block;
-  height: auto;
-  width: 100%;
-  border: 0;
-  }
-
-/******************SLIDER FIN**************/
-
-.slider{
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /************************************************************
 *************************Footer******************************
@@ -212,6 +177,7 @@ section{
     font-weight: 400;
     margin-bottom: 10px;
     text-align: center;
+    padding-top: 0;
 }
 
 .footer ul {

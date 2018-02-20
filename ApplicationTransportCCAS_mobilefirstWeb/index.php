@@ -5,16 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ali Baba</title>
   <link rel="stylesheet" href="bootstrap-v3/css/bootstrap-theme.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
   <link rel="stylesheet" href="bootstrap-v3/css/bootstrap.min.css">
+  <script src="bootstrap-v3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <link rel="pingback" href="http://icofont.com/xmlrpc.php">
+  <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <script src="bootstrap-v3/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script src="slider/responsiveslides.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <script>
 $(document).ready(function() {
@@ -77,23 +76,52 @@ $(document).ready(function() {
 </header>
 <body>
   <div class="container">
-    <div class="slider">
-        <ul class="rslides">
-          <li><img class="img-responsive" src="img/1.jpg" alt=""></li>
-          <div class="centered">Centered</div>
-          <li><img class="img-responsive" src="img/2.jpg" alt=""></li>
-          <li><img class="img-responsive" src="img/3.jpg" alt=""></li>
-        </ul>
-    </div>
-    <div class="meteo">
-    </div>
-    <div class="news">
-    </div>
-    <div class="cube">
-    </div>
-    <div class="cube">
-    </div>
-</div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" date-interval="500">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/1.jpg" alt="" style="width:100%;">
+            <div class="carousel-caption">
+              <h2>Kebab</h2>
+              <h3>Pour plus de fun manger wech!</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/2.jpg" alt="" style="width:100%;">
+            <div class="carousel-caption">
+              <h2>Kebab</h2>
+              <h3>Pour plus de fun manger wech!</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/3.jpg" alt="" style="width:100%;">
+            <div class="carousel-caption">
+              <h2>Kebab</h2>
+              <h3>Pour plus de fun manger wech!</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Précedent</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Suivant</span>
+        </a>
+      </div>
+  </div>
   <footer class="footer">
     <section class="bg-white" style="position:relative">
       <div class="container2">
