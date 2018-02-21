@@ -39,6 +39,7 @@ img{
 
 .navbar{
   margin-bottom:0px;
+  border-radius: 0px;
 }
 
 header>.navbar-default {
@@ -49,16 +50,18 @@ header>.navbar-default {
 
 .navbar-nav > li > a{
   font-family: 'Rubik Mono One', sans-serif;
-  text-align: center;
-  vertical-align: middle;
-  margin-left: 35%;
-  margin-right: 0%;
   font-size: 1.8em;
-  line-height: 10rem;
+  line-height: 0;
   -webkit-transition: background-color 0.25s ease-out;
   -moz-transition: background-color 0.25s ease-out;
   -o-transition: background-color 0.25s ease-out;
   transition: background-color 0.25s ease-out;
+}
+
+.nav>li>a{
+  position:relative;
+  display: block;
+  padding:3em 3em;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
@@ -91,7 +94,8 @@ header>.navbar-default {
  .navbar-nav > li > a{
    border-right:none;
    text-align: center;
-   line-height: 2rem;
+   line-height: 1rem;
+   padding:1em 1em;
    position:relative;
    margin-left: 0%;
    font-size: 1em;
