@@ -1,2 +1,2 @@
 # ApplicationMobileFirst
-A mobiole site application including the responsive design for the smartphones
+A mobile site application including the responsive design for the smartphones
